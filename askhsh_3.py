@@ -25,4 +25,4 @@ for lexi in keimeno:##gia kathe lexi
         p +=i##prosthsese to sthn nea lexi 
     p +=" "##prosthese ena keno meta thn kathe lexi
     P +=p##prosthese sthn nea protash thn nea lexi me to keno sto telos
-print P##emfanizw thn kainourgia protash 
+print P##emfanizw thn kainourgia protash
