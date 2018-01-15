@@ -1,4 +1,4 @@
-def search(r,m):
+def search(r,m):##sequential search opws thn mathame sto lykeio(se python of course)
     done = False # brethke to stoixeio;
     position = -1 ## arxikopoiw thn thesi tou stoixeiou pou anazhtw sthn lista 
     i = 0
