@@ -1,4 +1,4 @@
-keimeno = input("give me some text: ")
+keimeno = input("give me some text(in quotes please): ")
 keimeno = keimeno.split()## xwrizw to keimeno se lexeis
 P =""##arxikopoihsh kainourgias protashs
 for lexi in keimeno:##gia kathe lexi
