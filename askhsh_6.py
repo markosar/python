@@ -16,3 +16,5 @@ for i in range (1,stop + 1):
     d = datetime.date(year, month , i)
     print d.weekday()
 
+print "S","\t","M","\t","T","\t","W","\t","T","\t","F","\t","S","\t"
+
