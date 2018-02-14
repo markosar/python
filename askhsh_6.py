@@ -12,8 +12,7 @@ else: #month == 2
         stop = 29                         #29 hmeres
     else:                                  #enw alliws tha exei 
         stop = 28                         #28
-print stop
 for i in range (1,stop + 1):
     d = datetime.date(year, month , i)
-    print d.isoweekday()
+    print d.weekday()
 
