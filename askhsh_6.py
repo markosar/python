@@ -14,7 +14,8 @@ else: #month == 2
         stop = 28                         #28
 d = datetime.date(year, month , 1)
 startday = d.weekday()
-
+l = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+print l[month-1], year#dedomenou oti h arithmisi twn mhnwn xekina me to 1 gia ton genari
 print "S","\t","M","\t","T","\t","W","\t","T","\t","F","\t","S","\t"
 if (startday == 6):
     print "01","\t","02","\t","03","\t","04","\t","05","\t","06","\t","07","\t"
