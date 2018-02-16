@@ -40,4 +40,4 @@ max = max(wins)
 k = wins.index(max)
 N = k + 1
 date_N_days_ago = datetime.datetime.now() - datetime.timedelta(N)
-print "You would be lucky if you had played on:",date_N_days_ago.strftime("%d-%m-%Y")
+print "You would have been lucky, if you had played on:",date_N_days_ago.strftime("%d-%m-%Y")
