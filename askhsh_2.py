@@ -33,11 +33,11 @@ for i in range(31):
         r.append(compare_lists(mynums,tmp))
     wins_of_day = 0
     for n in r:
-        if n > 4:
-            wins_of_day += 1
-    wins.append(wins_of_day)
-max = max(wins)
-k = wins.index(max)
+        if n > 4:# an oi arithmoi pou petixa einai panw apo 4 
+            wins_of_day += 1# tote ua eixa mia akomh pithanothta na kerdisw authn thn mera
+    wins.append(wins_of_day)#edw gemizei h lista pou periexei to plithos twn epituxiwn pou exw kathe mera tou perasmenou mhna
+max = max(wins)#poia mera tha eixa tis perissoteres pithanothtes na exw kerdisei
+k = wins.index(max)#pou vrisketai to max
 N = k + 1
 date_N_days_ago = datetime.datetime.now() - datetime.timedelta(N)
 print "You would have been lucky, if you had played on:",date_N_days_ago.strftime("%d-%m-%Y")
