@@ -1,2 +1,0 @@
-AM : p17008
-Name : Markos Arakynthios
